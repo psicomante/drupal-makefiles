@@ -1,0 +1,35 @@
+# Base makefile
+# ----------------
+# This is an example makefile to introduce new users of drush make to the
+# syntax and options available to drush make.
+
+core: '7.x'
+
+api: 2
+
+projects:
+  drupal:
+    version: 7
+
+  views:
+    version: ~
+  ctools:
+    version: ~
+
+  # Administration
+  admin_menu:
+    version: ~
+  module_filter:
+    version: ~
+
+
+includes:
+  - dev.make.yml
+
+# If all projects or libraries share common attributes, the `defaults`
+# array can be used to specify these globally, rather than
+# per-project.
+
+defaults:
+  projects:
+    subdir: "contrib"

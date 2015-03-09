@@ -1,0 +1,43 @@
+# Development makefile
+# ----------------
+# makefile for development installs
+#
+# Development
+projects:
+  devel:
+    version: ~
+    subdir: development
+  registry_rebuild:
+    version: ~
+    subdir: development
+  simplehtmldom:
+    version: ~
+    subdir: development
+  coder:
+    version: ~
+    subdir: development
+  examples:
+    version: ~
+    subdir: development
+  environment_indicator:
+    version: ~
+    subdir: development
+  devel_themer:
+    version: ~
+    subdir: development
+
+# Additional
+# ==========
+  jquery_update:
+    version: ~
+  # This simple module allows you to specify some additional attributes for menu items such as id, name, class, style, and rel.
+  menu_attributes:
+    version: ~
+  # The Field API in Drupal core lacks the ability for other modules to easily alter field formatter settings forms and the formatter summaries
+  field_formatter_settings:
+    version: ~
+
+  #Fences is a an easy-to-use tool to specify an HTML element for each field.
+  fences:
+    version: ~
+
