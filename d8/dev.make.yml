@@ -1,0 +1,16 @@
+# Development makefile
+# ----------------
+# makefile for development installs
+#
+# Development
+projects:
+  # the Devel Module!
+  devel:
+    version: ~
+    subdir: development
+  coder:
+    version: ~
+    subdir: development
+  examples:
+    version: ~
+    subdir: development
